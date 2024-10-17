@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-bowlby;
+    background-color: #1E1E1E;
+    color: #E9E3DC;
+  }
+  
+
