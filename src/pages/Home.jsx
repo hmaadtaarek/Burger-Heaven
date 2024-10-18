@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Burgers, burger, fries, resturant } from "../assets";
 import { Header, Footer, Marque } from "../components";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
-      <Header />
+
+
 
       <main>
         {/* //section 1 Hero section */}
@@ -36,11 +36,11 @@ export default function Home() {
                 nec ornare neque.
               </p>
               <Link to="/about">
-                <button> 
-                <div className="relative px-6 py-3 bg-[#E9E3DC] text-black font-bold border-4 border-black z-10">
+
+                <button className="relative px-6 py-3 bg-[#E9E3DC] text-black font-bold border-4 border-black z-10"> 
                   ABOUT US
-                  <div className="absolute w-full h-full left-2 top-2 bg-black -z-10 pointer-events-none" />
-                </div>
+                  <span className="absolute w-full h-full left-2 top-2 bg-black -z-10 pointer-events-none" />
+                
                 </button>
               </Link>
             </div>
@@ -100,9 +100,9 @@ export default function Home() {
             </Link>
           </div>
         </section>
+
       </main>
 
-      <Footer />
-    </div>
+
   );
 }
