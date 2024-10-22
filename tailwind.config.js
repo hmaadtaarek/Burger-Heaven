@@ -16,6 +16,11 @@ export default {
       fontSize: {
         '7rem': '6.5rem',
       },
+      colors: {
+        parrotGreen: '#3DBE29', // Custom color for parrot green
+        bgDark: '#1e1e1e',
+        primaryText: '#E9E3DC',
+      },
     },
   },
   plugins: [],
